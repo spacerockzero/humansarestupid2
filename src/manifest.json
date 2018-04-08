@@ -1,0 +1,21 @@
+{
+	"name": "Humans Are Stupid",
+	"short_name": "humansarestupid",
+	"start_url": "/",
+	"display": "standalone",
+	"orientation": "portrait",
+	"background_color": "#fff",
+	"theme_color": "#673ab7",
+	"icons": [
+		{
+			"src": "/assets/person.svg",
+			"type": "image/svg",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/assets/person.svg",
+			"type": "image/svg",
+			"sizes": "512x512"
+		}
+	]
+}

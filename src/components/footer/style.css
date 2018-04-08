@@ -1,0 +1,32 @@
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 4em;
+	padding: 0.3em;
+	background: #673AB7;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+	z-index: 50;
+	text-align: center;
+	line-height: 1.2em;
+}
+
+.footer	p {
+  color: #fff;
+  padding: 0 1em;
+}
+.footer	a {
+  color: #ba719f;
+}
+.footer a:hover,
+.footer a:active {
+  background: rgba(255,255,255,0.3);
+  color: #673AB7;
+}
+
+@media screen and (max-width: 600px) {
+	.footer {
+		padding: 0;
+	}
+}
